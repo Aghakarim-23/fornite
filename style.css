@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.card-container{
+    text-align: center;
+    margin: 100px auto;
+}
+.card{
+    width: 300px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-bottom{
+    padding: 20px;
+    text-align: left;
+}
+.card-title{
+    margin: 15px 0;
+}
+.card-about{
+    margin: 15px 0;
+}
+.card-button{
+    padding: 10px 24px;
+    background-color: #9e2cba;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
